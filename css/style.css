@@ -1,0 +1,115 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  background-color: rgb(238, 204, 204);
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+  color: rgb(70, 30, 3);
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  padding: 170px 0;
+}
+
+.banner h1 {
+  color: #bb1aa0;
+}
+
+.banner p {
+  color: #bb1aa0;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #ebcc21;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: rgb(161, 95, 7);
+}
+
+.btn-secondary {
+  border: 1px solid #1EDD88;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #1EDD88;
+}
+
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  background-color: white;
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  color: rgb(70, 30, 3);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #bb1aa0;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #eee01f;
+}
+
+.footer a:hover {
+  font-size: 30px;
+  color:  #ffffff;
+}
+
+.footer p {
+  color: #d3b81e;
+}
+
+.footer .fas {
+  color: #f1c228;
+}
